@@ -11,7 +11,7 @@ module Alloader
           require f
         end
       when :load
-        filelist(dirpath).each do |f|
+        filelist_in(dirpath).each do |f|
           load f
         end
       end
