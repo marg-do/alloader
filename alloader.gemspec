@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "alloader"
   spec.version       = Alloader::VERSION
   spec.authors       = ["marg_do"]
-  spec.email         = ["t.t.mc1192.sf@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.email         = ["domargdo@gmail.com"]
+  spec.summary       = %q{Load or Require all files in the folder.}
+  spec.description   = %q{Load or Require all files in the folder.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
