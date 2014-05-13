@@ -1,6 +1,6 @@
 # Alloader
 
-TODO: Write a gem description
+Load or Require all files in the directory.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'alloader'
+    Alloader::require_all "/directory/path/containing/your/libs"
+
+or
+    require 'alloader'
+    Alloader::load_all "/directory/path/containing/your/libs"
 
 ## Contributing
 
