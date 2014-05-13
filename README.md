@@ -22,6 +22,7 @@ Or install it yourself as:
     Alloader::require_all "/directory/path/containing/your/libs"
 
 or
+
     require 'alloader'
     Alloader::load_all "/directory/path/containing/your/libs"
 
